@@ -6,6 +6,7 @@ This gui implements dropbox authorization, reading dropbox file and file uploadi
 Create App
 ============
 Create your own app in dropbox app console https://www.dropbox.com/developers/apps
+
 1. Create App
 2. Type of app: Dropbox API app
 3. Type of data: Files and datastores
@@ -29,7 +30,7 @@ It may contain any settings that you want to store in cloud. In my gui i use it 
 
 updateSettings()
 --------------- 
-Calls at start from userMain function.
+Called at start from userMain function.
 
 1. Request file settings.json. If success execute callback function.
 2. Send log if debug == 1. Call callback in any case.
