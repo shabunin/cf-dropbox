@@ -2,6 +2,7 @@ iViewer4 dropbox integration
 ============
 
 This gui implements dropbox authorization, reading dropbox file and file uploading. As example i made remote gui updating.
+Its not full implementation of dropbox core api. If you need more - check docs at page https://www.dropbox.com/developers/core/docs and add requests that you need.
 
 Create App
 ============
